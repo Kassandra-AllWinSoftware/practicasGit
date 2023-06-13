@@ -9,16 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     @Binding var document: PracticasgitDocument
-
+    
     var body: some View {
-        TextEditor(text: $document.text)
-            .multilineTextAlignment(.center)
-        HStack {
-            Text("Mi primer texto")
+        VStack {
+            Text("Esto es el primer Titulo")
+                .font(.title)
             Spacer()
-            Text("Mi primer texto")
+            HStack{
+                Text("Mi primer texto")
+                Spacer()
+                Text("Mi primer texto")
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
