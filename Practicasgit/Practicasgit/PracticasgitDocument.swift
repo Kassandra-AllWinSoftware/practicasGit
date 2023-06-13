@@ -17,7 +17,7 @@ extension UTType {
 struct PracticasgitDocument: FileDocument {
     var text: String
 
-    init(text: String = "Hello, world!") {
+    init(text: String = "Mi primera plantilla de swiftUI y necesito acomodarle texto y titulo") {
         self.text = text
     }
 

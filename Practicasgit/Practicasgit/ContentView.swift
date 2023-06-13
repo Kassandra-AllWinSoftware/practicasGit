@@ -12,6 +12,13 @@ struct ContentView: View {
 
     var body: some View {
         TextEditor(text: $document.text)
+            .multilineTextAlignment(.center)
+        HStack {
+            Text("Mi primer texto")
+            Spacer()
+            Text("Mi primer texto")
+        }
+        .padding()
     }
 }
 
