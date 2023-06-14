@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticasgitApp: App {
     var body: some Scene {
         DocumentGroup(newDocument: PracticasgitDocument()) { file in
-            ContentView(document: file.$document)
+            ContentVie(document: file.$document)
         }
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentVie: View {
     @Binding var document: PracticasgitDocument
     
     var body: some View {
@@ -27,6 +27,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(document: .constant(PracticasgitDocument()))
+        ContentVie(document: .constant(PracticasgitDocument()))
     }
 }

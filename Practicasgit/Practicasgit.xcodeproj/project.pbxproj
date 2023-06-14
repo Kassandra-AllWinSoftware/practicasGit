@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D74146D2A3928D200CB3C52 /* PracticasgitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74146C2A3928D200CB3C52 /* PracticasgitApp.swift */; };
 		4D74146F2A3928D200CB3C52 /* PracticasgitDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74146E2A3928D200CB3C52 /* PracticasgitDocument.swift */; };
-		4D7414712A3928D200CB3C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7414702A3928D200CB3C52 /* ContentView.swift */; };
+		4D7414712A3928D200CB3C52 /* ContentVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7414702A3928D200CB3C52 /* ContentVie.swift */; };
 		4D7414732A3928D300CB3C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7414722A3928D300CB3C52 /* Assets.xcassets */; };
 		4D7414762A3928D300CB3C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7414752A3928D300CB3C52 /* Preview Assets.xcassets */; };
 		4D7414812A3928D300CB3C52 /* PracticasgitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7414802A3928D300CB3C52 /* PracticasgitTests.swift */; };
@@ -38,7 +38,7 @@
 		4D7414692A3928D200CB3C52 /* Practicasgit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicasgit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D74146C2A3928D200CB3C52 /* PracticasgitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticasgitApp.swift; sourceTree = "<group>"; };
 		4D74146E2A3928D200CB3C52 /* PracticasgitDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticasgitDocument.swift; sourceTree = "<group>"; };
-		4D7414702A3928D200CB3C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D7414702A3928D200CB3C52 /* ContentVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVie.swift; sourceTree = "<group>"; };
 		4D7414722A3928D300CB3C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7414752A3928D300CB3C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D7414772A3928D300CB3C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			children = (
 				4D74146C2A3928D200CB3C52 /* PracticasgitApp.swift */,
 				4D74146E2A3928D200CB3C52 /* PracticasgitDocument.swift */,
-				4D7414702A3928D200CB3C52 /* ContentView.swift */,
+				4D7414702A3928D200CB3C52 /* ContentVie.swift */,
 				4D7414722A3928D300CB3C52 /* Assets.xcassets */,
 				4D7414772A3928D300CB3C52 /* Info.plist */,
 				4D7414742A3928D300CB3C52 /* Preview Content */,
@@ -264,7 +264,7 @@
 			files = (
 				4D74146F2A3928D200CB3C52 /* PracticasgitDocument.swift in Sources */,
 				4D74146D2A3928D200CB3C52 /* PracticasgitApp.swift in Sources */,
-				4D7414712A3928D200CB3C52 /* ContentView.swift in Sources */,
+				4D7414712A3928D200CB3C52 /* ContentVie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
